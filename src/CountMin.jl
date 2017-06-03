@@ -49,8 +49,8 @@ type CountMinSketch{T<:Unsigned}
     sketch::Matrix{T}
 
     # Type min and max precomuted to avoid allocs
-    tpmax::Int
-    tpmin::Int
+    tpmax::UInt64
+    tpmin::UInt64
 
     """
     The constructor for `CountMinSketch`es
