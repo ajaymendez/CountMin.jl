@@ -20,7 +20,8 @@ import Base: read!,
              getindex,
              eltype,
              size,
-             show
+             show,
+             haskey
 
 import HDF5: h5open
 
